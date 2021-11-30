@@ -22,7 +22,9 @@ ul {
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+input {
+    margin: 0;
+}
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -473,6 +475,83 @@ body {
 .join-social-link:hover,
 .join-social-link:focus {
     background-color:var(--text-accent);
+}
+
+.footer-form {
+    /* display: flex; */
+    min-width : 570px;
+    margin-left: 93px;
+}
+.footer-form-title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-text-color);
+}
+
+.footer-form-box {
+    display: flex;
+
+}
+.footer-form-mail {
+    min-width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+}
+.footer-form-mail:placeholder {
+    font-size: 16px;
+    line-height: 1.25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer-form-btn {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    background-color:var(--text-accent);
+    color: var(--second-title-text-color);
+    cursor: pointer;
+    min-width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 4px;
+    /* padding: 10px 32px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+
+}
+
+.footer-form-icon { 
+
+
+}
+.footer-form-icon {
+    
+
+/* .footer-form-btn::after {
+    content: ""; */
+
 }
 /* ----------------------------------------------------------portfolio page---------------------------------------------- */
 
