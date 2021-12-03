@@ -780,20 +780,28 @@ input {
     outline: none;
     transition: border-color 250ms linear;
 }
+
 .modal-form-checkbox-box {
     display: flex;
-    align-items: center;
-    margin-bottom: 30px;
 }
-.modal-form-checkbox-text {
+.checkbox-style {
     display: block;
-    margin-left: 8.38px;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color:var(--main-text-color)
+    width: 16px;
+    height: 16px;
+    border: 1px solid #000000;
 }
+.chechbox {
+    display: flex;
+}
+.chechbox-text {
+    font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
 
+letter-spacing: 0.03em;
+
+color: #757575;
+}
 .modal-form-button {
     margin: 0 auto;
     min-width: 200px;
