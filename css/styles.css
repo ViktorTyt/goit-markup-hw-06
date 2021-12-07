@@ -710,6 +710,12 @@ input {
     display: block;
     text-align: center;
     margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+
+color: #212121;
 }
 .modal-form-input-box {
     display: flex;
@@ -740,7 +746,6 @@ input {
 }
 .inpute-wrap {
     position: relative;
-    display: flex;
 }
 .modal-form-icon {
     position: absolute;
@@ -795,7 +800,8 @@ input {
 .checkbox-custom {
     width: 16px;
     height: 15px;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
